@@ -1,0 +1,15 @@
+import javax.swing.*;
+ 
+public class Interface
+{
+    public static void main(String[] args) 
+    {
+        JFrame frame = new JFrame("App Bénévolat");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(250, 250);
+        JLabel label = new JLabel("Sign up page", JLabel.RIGHT);
+        frame.add(label);
+
+        frame.setVisible(true);
+    }
+}
